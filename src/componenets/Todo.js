@@ -8,7 +8,6 @@ import {
   saveYourChanges,
   markAsCompleted,
 } from "../redux/reducer";
-import { useRef } from "react";
 
 const mapStateToProps = (state) => {
   return { todo: state };
